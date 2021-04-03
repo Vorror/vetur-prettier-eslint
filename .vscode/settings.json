@@ -1,3 +1,5 @@
 {
-  "vetur.experimental.templateInterpolationService": true
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "eslint.packageManager": "yarn",
+  "vetur.experimental.templateInterpolationService": false
 }

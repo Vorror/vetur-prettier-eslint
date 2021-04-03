@@ -5,9 +5,8 @@
 </template>
 
 <script>
-import * as _ from 'lodash'
-
-export default {
-  props: ['foo', 'bar']
+const test = {
+  'hello-world': 'foo',
+  foo: 'bar'
 }
 </script>
