@@ -3,5 +3,10 @@ module.exports = {
   rules: {
     'quote-props': ['error', 'consistent-as-needed']
   },
-  parser: 'vue-eslint-parser'
-}
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    parser: 'babel-eslint',
+    sourceType: 'module',
+    ecmaVersion: 8
+  }
+};
